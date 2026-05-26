@@ -1,8 +1,22 @@
 # Klaviyo MCP Server
 
+[![MCPize](https://mcpize.com/badge/@rkbzddev/klaviyo-mcp)](https://mcpize.com/mcp/klaviyo-mcp)
+
 **Email marketing ops for Claude** — control Klaviyo profiles, campaigns, flows, lists, segments, metrics, and templates through natural language.
 
 Built by [Md Rakibul Islam](https://mrakibulislam.com) · [mrakibulislam.com/mcp-tools/klaviyo](https://mrakibulislam.com/mcp-tools/klaviyo)
+
+---
+
+## Connect via MCPize
+
+Use this MCP server instantly with no local installation:
+
+```bash
+npx -y mcpize connect @rkbzddev/klaviyo-mcp --client claude
+```
+
+Or connect at: **https://mcpize.com/mcp/klaviyo-mcp**
 
 ---
 

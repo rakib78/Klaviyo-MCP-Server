@@ -1,0 +1,27 @@
+# MCPize Configuration
+# Docs: https://mcpize.com/docs/mcpize-yaml
+
+version: 1
+
+name: "Klaviyo"
+slug: "klaviyo-mcp"
+
+runtime: typescript
+entry: "dist/index.js"
+
+build:
+  install: "npm install"
+  command: "npm run build"
+  dockerfile: "Dockerfile"
+
+start:
+  type: http
+  command: "node"
+  args:
+    - "dist/index.js"
+
+bridge:
+  mode: http
+
+credentials:
+  - name: "KLAVIYO_API_KEY"
